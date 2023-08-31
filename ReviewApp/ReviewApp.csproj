@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-ReviewApp-6734e1f0-8a60-4917-8fe8-217d61d130a3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.21" />
+  </ItemGroup>
+
+</Project>
