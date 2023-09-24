@@ -3,9 +3,10 @@ html {
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+        
+    }
 }
 
 html {
@@ -14,5 +15,83 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: darkred;
+    
 }
+
+a {
+    color: darkred;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+    
+}
+
+
+.table{
+    color:darkred;
+}
+.form-control {
+    color: darkred;
+    margin: 8px
+    
+}
+    .form-control:focus {
+        outline: darkred solid 4px;
+    }
+.button {
+    padding: 10px 24px;
+    background-color: darkred;
+    color: antiquewhite;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    border: none;
+    margin-top: 20px
+    
+}
+
+    .button:hover {
+        opacity: 0.6;
+
+    }
+.btn-primary {
+    background-color: darkred;
+    border-color: darkred;
+    color:antiquewhite;
+
+}
+
+    .btn-primary:hover {
+        background-color: darkred;
+        border-color: darkred;
+        color: antiquewhite;
+        opacity: 0.6;
+    }
+    .btn-primary:active {
+        background-color: darkred;
+        border-color: darkred;
+        color: antiquewhite;
+        opacity: 0.6;
+    }
+
+
+.nav-item{
+    color:darkred;
+}
+
+
+.nav-link {
+    color: darkred;
+}
+    .nav-link:hover {
+        color: darkred;
+    }
+
+    

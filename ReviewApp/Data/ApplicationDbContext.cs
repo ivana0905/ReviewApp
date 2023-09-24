@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ReviewApp.Models;
 
 namespace ReviewApp.Data
 {
@@ -9,5 +10,6 @@ namespace ReviewApp.Data
             : base(options)
         {
         }
+        public DbSet<ReviewApp.Models.Review>? Review { get; set; }
     }
 }
